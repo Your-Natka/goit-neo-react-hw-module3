@@ -1,0 +1,23 @@
+.card {
+  width: 250px;
+  padding: 12px;
+  border: 1px solid black;
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  margin: 8px 0;
+}
+
+.button {
+  height: 35px;
+  cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  width: 300px;
+  padding: 16px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.error {
+  display: block;
+  color: red;
+  font-size: 14px;
+}
