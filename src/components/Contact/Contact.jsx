@@ -1,7 +1,7 @@
 import { FaUser, FaPhoneAlt } from "react-icons/fa";
 import css from "./Contact.module.css";
 
-export default function Contact({ contact }) {
+export default function Contact({ contact, onDelete }) {
   return (
     <div className={css.card}>
       <div>

@@ -31,19 +31,21 @@ export default function ContactForm({ onAdd }) {
       onSubmit={handleSubmit}
     >
       <Form className={css.form}>
-        <label>
+        <label className={css.label}>
           Name
           <Field type="text" name="name" />
           <ErrorMessage name="name" component="span" className={css.error} />
         </label>
 
-        <label>
+        <label className={css.label}>
           Number
           <Field type="text" name="number" />
           <ErrorMessage name="number" component="span" className={css.error} />
         </label>
 
-        <button type="submit">Add contact</button>
+        <button className={css.button} type="submit">
+          Add contact
+        </button>
       </Form>
     </Formik>
   );

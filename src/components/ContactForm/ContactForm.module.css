@@ -1,12 +1,27 @@
 .form {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
 
-  width: 300px;
+  width: 350px;
   padding: 16px;
   border: 1px solid black;
   margin-bottom: 20px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.input {
+  height: 40px;
+}
+
+.button {
+  width: 120px;
+  align-self: center;
 }
 
 .error {
